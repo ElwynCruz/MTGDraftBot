@@ -12,6 +12,13 @@
     "img_uri": "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/a/6afead32-3542-44c4-82d6-b6a81beb9f90.jpg?1600713424"
   },
   {
+    "name": "Kytheon, Hero of Akros",
+    "img_uri": [
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/8/58c39df6-b237-40d1-bdcb-2fe5d05392a9.jpg?1562021001",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/5/8/58c39df6-b237-40d1-bdcb-2fe5d05392a9.jpg?1562021001"
+    ]
+  },
+  {
     "name": "Mardu Woe-Reaper",
     "img_uri": "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/b/0bf14a32-b97b-48c7-8395-d9c3626735c1.jpg?1562822362"
   },
@@ -136,6 +143,13 @@
     "img_uri": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/3/f3920f7d-8559-40f8-95be-860c16bf7700.jpg?1576380724"
   },
   {
+    "name": "Archangel Avacyn",
+    "img_uri": [
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/e/ae155ee2-008f-4dc6-82bf-476be7baa224.jpg?1576383667",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/a/e/ae155ee2-008f-4dc6-82bf-476be7baa224.jpg?1576383667"
+    ]
+  },
+  {
     "name": "Baneslayer Angel",
     "img_uri": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/b/4bd3014b-94bb-4a9f-92cf-239a2dcc7e97.jpg?1594734758"
   },
@@ -240,6 +254,13 @@
     "img_uri": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/9/9964629e-d79e-46e4-b3fd-e7d1759cbc60.jpg?1562265268"
   },
   {
+    "name": "Emeria's Call",
+    "img_uri": [
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/4/c470539a-9cc7-4175-8f7c-c982b6072b6d.jpg?1604195709",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/c/4/c470539a-9cc7-4175-8f7c-c982b6072b6d.jpg?1604195709"
+    ]
+  },
+  {
     "name": "Land Tax",
     "img_uri": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/5/95bba319-5f66-4085-9f2a-ab71f727ab64.jpg?1599708011"
   },
@@ -278,6 +299,13 @@
   {
     "name": "Baral, Chief of Compliance",
     "img_uri": "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/0/60e16d94-1166-4050-8554-686e153a7f80.jpg?1576381454"
+  },
+  {
+    "name": "Jace, Vryn's Prodigy",
+    "img_uri": [
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/2/02d6d693-f1f3-4317-bcc0-c21fa8490d38.jpg?1590511929",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/0/2/02d6d693-f1f3-4317-bcc0-c21fa8490d38.jpg?1590511929"
+    ]
   },
   {
     "name": "Looter il-Kor",
@@ -768,6 +796,13 @@
     "img_uri": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/2/c28db9a4-6696-460b-a9d3-98f4a31abe75.jpg?1614624374"
   },
   {
+    "name": "Agadeem's Awakening",
+    "img_uri": [
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/7/67f4c93b-080c-4196-b095-6a120a221988.jpg?1604195226",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/6/7/67f4c93b-080c-4196-b095-6a120a221988.jpg?1604195226"
+    ]
+  },
+  {
     "name": "Toxic Deluge",
     "img_uri": "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/0/d00fa18f-d50a-4d3f-929e-91f29141b1df.jpg?1599706034"
   },
@@ -902,6 +937,13 @@
   {
     "name": "Young Pyromancer",
     "img_uri": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/1/218af707-cc60-407e-af20-e21879a0e902.jpg?1601078849"
+  },
+  {
+    "name": "Chandra, Fire of Kaladesh",
+    "img_uri": [
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/0/b0d6caf0-4fa8-4ec5-b7f4-1307474d1b13.jpg?1562036951",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/b/0/b0d6caf0-4fa8-4ec5-b7f4-1307474d1b13.jpg?1562036951"
+    ]
   },
   {
     "name": "Goblin Rabblemaster",
@@ -1344,6 +1386,13 @@
     "img_uri": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/0/403f6e97-eb7a-470a-8673-4997256e79f0.jpg?1561966883"
   },
   {
+    "name": "Turntimber Symbiosis",
+    "img_uri": [
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/1/61bd69ea-1e9e-46b0-b1a1-ed7fdbe3deb6.jpg?1604199791",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/6/1/61bd69ea-1e9e-46b0-b1a1-ed7fdbe3deb6.jpg?1604199791"
+    ]
+  },
+  {
     "name": "Birthing Pod",
     "img_uri": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/7/b768efa2-e56b-4a7e-ace8-d673f10e0714.jpg?1562880960"
   },
@@ -1462,6 +1511,13 @@
   {
     "name": "Bloodbraid Elf",
     "img_uri": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/3/33abc681-b82c-41fe-980a-f0ead136e28f.jpg?1562904581"
+  },
+  {
+    "name": "Huntmaster of the Fells",
+    "img_uri": [
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/a/aae6fb12-b252-453b-bca7-1ea2a0d6c8dc.jpg?1581395173",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/a/a/aae6fb12-b252-453b-bca7-1ea2a0d6c8dc.jpg?1581395173"
+    ]
   },
   {
     "name": "Xenagos, the Reveler",
@@ -2348,6 +2404,13 @@
     "img_uri": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/4/44bdbed8-5d21-4bf5-8a32-9623b1139c85.jpg?1576381396"
   },
   {
+    "name": "Glasspool Mimic",
+    "img_uri": [
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/a/5adcb500-8c77-4925-8e2c-1243502827d1.jpg?1604243976",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/5/a/5adcb500-8c77-4925-8e2c-1243502827d1.jpg?1604243976"
+    ]
+  },
+  {
     "name": "Spellseeker",
     "img_uri": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/4/74b4c336-5d4c-4bc5-b82a-35084a6ad808.jpg?1562918363"
   },
@@ -2422,6 +2485,13 @@
   {
     "name": "Lord Windgrace",
     "img_uri": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/1/213d6fb8-5624-4804-b263-51f339482754.jpg?1592710275"
+  },
+  {
+    "name": "Shatterskull Smashing",
+    "img_uri": [
+      "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/c/bc7239ea-f8aa-4a6f-87bd-c35359635673.jpg?1604197844",
+      "https://c1.scryfall.com/file/scryfall-cards/normal/back/b/c/bc7239ea-f8aa-4a6f-87bd-c35359635673.jpg?1604197844"
+    ]
   },
   {
     "name": "Agent of Treachery",

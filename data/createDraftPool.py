@@ -4,10 +4,13 @@
 
 import json
 import csv
+from pathlib import Path
 
-INPUT_PATH = "card_base.json"
-OUTPUT_PATH = "CruzianCards.json"
-CSV_FILE_PATH = "CruzianPowerCube.csv"
+CURRENT_DIRECTORY = Path(__file__).parent
+INPUT_PATH = CURRENT_DIRECTORY / "card_base.json"
+OUTPUT_PATH = CURRENT_DIRECTORY / "CruzianCards.json"
+CSV_FILE_PATH = CURRENT_DIRECTORY / "CruzianPowerCube.csv"
+
 def make_json(csvFilePath, jsonFilePath, outPath):
   cards = {}
   with open(INPUT_PATH, 'rb') as input_data, open(csvFilePath, 'r') as csvf, open(outPath, 'w') as output_file:
@@ -22,10 +25,25 @@ def make_json(csvFilePath, jsonFilePath, outPath):
           "name": name,
           "img_uri": img_uri
         }
-      except Exception: # if image is not available, just save the name/
-        cards[name] = {
-          "name": name,
-        }
+      except KeyError: # if image is not available, its probably a double faced card
+        try:
+          img_uris = []
+          frontFace = item['card_faces'][0]
+          frontName = frontFace['name']
+          backName = item['card_faces'][1]['name']
+          if frontName == backName: # Ranger-Captain of Eos appears twice, and once as a flip card for some reason
+            continue
+          for card_faces in item['card_faces']:
+            img_uris.append(card_faces['image_uris']['normal'])
+          cards[frontName] = {
+            "name": frontName,
+            "img_uri": img_uris
+          }
+        except KeyError: # no image
+          # cards[name] = {
+          #   "name": name
+          # }
+          print("warning no image found")
     cardData = []
     
     # just get the name from each row
