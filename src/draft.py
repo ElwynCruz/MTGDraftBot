@@ -115,13 +115,14 @@ class Draft:
   # return whether the draft has been changed
   # this runs one iteration of the draft and should be continuously called until the draft is finished
   def updateDraft(self):
+    if self.hasQuit():
+      self.status = Status.TERMINATED
+      return self.status
     self.status = Status.WAITING
     for player in self.players:
       if player.hasSelected() and player not in self.pickedPlayers:
         self.pickedPlayers.append(player)
-    if self.hasQuit():
-      self.status = Status.TERMINATED
-    elif self.isDraftFinished() and self.isPackFinished():
+    if self.isDraftFinished() and self.isPackFinished():
       self.status = Status.FINISHED
     elif self.isPackFinished():
       self.nextPack()
