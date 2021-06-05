@@ -9,7 +9,7 @@ This is a Discord bot created using Python to simulate a Magic: The Gathering dr
 3. To generate your card base, run data/createDraftPool.py and it should generate a .json file for your card base.
 4. Create a discord bot, and get it's token.
 5. Add a .env file containing the token of the discord bot to the root directory. 
-6. Finally, run the bot using src/MTGDraftBot.py and it will start the bot using the discord token to login.
+6. Finally, run the bot using src/DraftBot.py and it will start the bot using the discord token to login.
 7. Use commands as necessary to moderate the draft.
 8. 
 ## Commands ##
